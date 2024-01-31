@@ -15,11 +15,7 @@ importers:
         specifier: ^5.3.3
         version: 5.3.3
 
-  packages/cli:
-    dependencies:
-      '@monorepo/core':
-        specifier: workspace:*
-        version: link:../core
+  packages/cli: {}
 
   packages/core: {}
 
