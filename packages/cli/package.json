@@ -1,0 +1,16 @@
+{
+	"name": "@monorepo/cli",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "tsc --build",
+		"start": "node index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@monorepo/core": "workspace:*"
+	}
+}
