@@ -1,5 +1,5 @@
 .PHONY: all
 all: tsconfig.tsbuildinfo
 
-tsconfig.tsbuildinfo: index.ts tsconfig.json
+tsconfig.tsbuildinfo: src/index.ts tsconfig.json
 	pnpm build

@@ -1,5 +1,5 @@
 .PHONY: all
-all: index.js
+all: dist/index.js
 
-index.js: index.ts
+dist/index.js: src/index.ts
 	pnpm build
